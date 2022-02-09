@@ -17,19 +17,19 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
-        /** @var SessionGuard $auth */
-        $auth = Filament::auth();
-
-        /** @var EloquentUserProvider $userProvider */
-        $userProvider = $auth->getProvider();
-
-        $userModel = $userProvider->getModel();
-
-        $user = $userModel::create([
-            'email'=>'admin@bfo.ch',
-            'name'=>'admin@bfo.ch',
-            'password'=>Hash::make('admin@bfo.ch'),
-        ]);
+        /// \App\Models\User::factory(10)->create();
+        ///** @var SessionGuard $auth */
+        //$auth = Filament::auth();
+//
+        ///** @var EloquentUserProvider $userProvider */
+        //$userProvider = $auth->getProvider();
+//
+        //$userModel = $userProvider->getModel();
+//
+        //$user = $userModel::create([
+        //    'email'=>'admin@bfo.ch',
+        //    'name'=>'admin@bfo.ch',
+        //    'password'=>Hash::make('admin@bfo.ch'),
+        //]);
     }
 }

@@ -6,6 +6,13 @@
       0 => 'Akaunting\\Money\\Provider',
     ),
   ),
+  'bennett-treptow/laravel-migration-generator' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'LaravelMigrationGenerator\\LaravelMigrationGeneratorProvider',
+    ),
+  ),
   'blade-ui-kit/blade-heroicons' => 
   array (
     'providers' => 

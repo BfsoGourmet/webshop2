@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a9f2fa7e3502e92a41618be79c52e56e01d9a180',
+        'reference' => 'e96bceb55ef016e268aba55a60767d654465fb31',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -27,6 +27,15 @@
             'aliases' => array(),
             'reference' => '73e5b88775c64ccc0b84fb60836b30dc9d92ac4a',
             'dev_requirement' => false,
+        ),
+        'bennett-treptow/laravel-migration-generator' => array(
+            'pretty_version' => '4.1.3',
+            'version' => '4.1.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../bennett-treptow/laravel-migration-generator',
+            'aliases' => array(),
+            'reference' => '8b80c75f3a51bdc138fbf2432009ffb735010230',
+            'dev_requirement' => true,
         ),
         'blade-ui-kit/blade-heroicons' => array(
             'pretty_version' => '1.3.0',
@@ -472,7 +481,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a9f2fa7e3502e92a41618be79c52e56e01d9a180',
+            'reference' => 'e96bceb55ef016e268aba55a60767d654465fb31',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -555,6 +564,15 @@
             'aliases' => array(),
             'reference' => '0d417b27791af09c79108eafd1344842f83a26ee',
             'dev_requirement' => false,
+        ),
+        'marcj/topsort' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../marcj/topsort',
+            'aliases' => array(),
+            'reference' => '972f58e42b5f110a0a1d8433247f65248abcfd5c',
+            'dev_requirement' => true,
         ),
         'mockery/mockery' => array(
             'pretty_version' => '1.5.0',
@@ -850,8 +868,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(

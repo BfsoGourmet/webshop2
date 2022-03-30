@@ -10,10 +10,11 @@
         <div class="row">
             @foreach($categories as $category)
             <div class="col-md-3">
-                <div href="#" class="card card-product-grid">
-                    <a href="#" class="img-wrap"> <img src="assets/images/items/1.jpg"> </a>
+                <div href="/products" class="card card-product-grid">
+                    <a href="/products" class="img-wrap"> <img src="assets/images/items/1.jpg"> </a>
                     <figcaption class="info-wrap">
-                        <a href="#&{{$category->id}}" class="title">{{$category->title}}</a>
+
+                        <a href="/products" class="title">{{$category->title}}</a>
 
                         <div class="rating-wrap">
                             <ul class="rating-stars">

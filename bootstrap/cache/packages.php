@@ -1,69 +1,9 @@
 <?php return array (
-  'akaunting/laravel-money' => 
+  'laravel/breeze' => 
   array (
     'providers' => 
     array (
-      0 => 'Akaunting\\Money\\Provider',
-    ),
-  ),
-  'bennett-treptow/laravel-migration-generator' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'LaravelMigrationGenerator\\LaravelMigrationGeneratorProvider',
-    ),
-  ),
-  'blade-ui-kit/blade-heroicons' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'BladeUI\\Heroicons\\BladeHeroiconsServiceProvider',
-    ),
-  ),
-  'blade-ui-kit/blade-icons' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'BladeUI\\Icons\\BladeIconsServiceProvider',
-    ),
-  ),
-  'facade/ignition' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Facade\\Ignition\\IgnitionServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Flare' => 'Facade\\Ignition\\Facades\\Flare',
-    ),
-  ),
-  'filament/filament' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Filament\\FilamentServiceProvider',
-    ),
-  ),
-  'filament/forms' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Filament\\Forms\\FormsServiceProvider',
-    ),
-  ),
-  'filament/tables' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Filament\\Tables\\TablesServiceProvider',
-    ),
-  ),
-  'fruitcake/laravel-cors' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Fruitcake\\Cors\\CorsServiceProvider',
+      0 => 'Laravel\\Breeze\\BreezeServiceProvider',
     ),
   ),
   'laravel/sail' => 
@@ -87,17 +27,6 @@
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
     ),
   ),
-  'livewire/livewire' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Livewire\\LivewireServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Livewire' => 'Livewire\\Livewire',
-    ),
-  ),
   'nesbot/carbon' => 
   array (
     'providers' => 
@@ -110,6 +39,17 @@
     'providers' => 
     array (
       0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
+    ),
+  ),
+  'spatie/laravel-ignition' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Flare' => 'Spatie\\LaravelIgnition\\Facades\\Flare',
     ),
   ),
 );
